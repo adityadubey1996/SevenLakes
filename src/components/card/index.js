@@ -20,7 +20,7 @@ const Cards = (props) => {
           }}
           id={item.post.id}
         >
-          {item.post.title}
+          Post Title:{item.post.title}
         </div>
         <div
           onClick={(e) => {
@@ -28,7 +28,7 @@ const Cards = (props) => {
           }}
           id={item.user.id}
         >
-          {item.user.name}
+          Post aurthur:{item.user.name}
         </div>
       </Card>
     ))
